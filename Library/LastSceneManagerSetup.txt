@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Action_script_ERproject/Scenetest/NavigationTest1.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
