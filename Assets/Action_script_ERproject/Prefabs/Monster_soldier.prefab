@@ -1795,9 +1795,9 @@ GameObject:
   - component: {fileID: 7563820177976738816}
   - component: {fileID: 5836955020160574871}
   - component: {fileID: 8825351793761498553}
-  - component: {fileID: 4965163496621108978}
   - component: {fileID: 8507291280083530845}
-  m_Layer: 8
+  - component: {fileID: -2619951358158168599}
+  m_Layer: 0
   m_Name: Monster_soldier
   m_TagString: Enemy_soldier
   m_Icon: {fileID: 0}
@@ -1838,7 +1838,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: ed83fa16281225940a0aab09627df56d, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -1893,29 +1893,6 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 1, z: 0}
---- !u!136 &4965163496621108978
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7376050670104296969}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 1
-  m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8507291280083530845
 MonoBehaviour:
@@ -1929,6 +1906,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f370bacd2b1547b43b40d8ea9e1389dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &-2619951358158168599
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7376050670104296969}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1.6, z: 1}
+  m_Center: {x: 0, y: 0.9, z: 0}
 --- !u!1 &7842554121976550870
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,1 +1,5 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/Action_script_ERproject/Scenetest/navigationnew.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

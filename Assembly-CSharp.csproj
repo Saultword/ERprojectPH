@@ -66,6 +66,7 @@
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\Enemy_navigation\Enemy.cs" />
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\Enemy_navigation\TestMoveAndAttack.cs" />
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\Enemy_navigation\WayPointManager.cs" />
+    <Compile Include="Assets\Action_script_ERproject\Script\DefenseTower\TargetDetect.cs" />
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\Enemy_navigation\WaypointListDrawer.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\Game.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\EnemyFactory.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="Assets\Action_script_ERproject\MonsterGeneration.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\Defense_tower.cs" />
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\EnemyAIsimple.cs" />
+    <Compile Include="Assets\Action_script_ERproject\Script\DefenseTower\TowerAttack.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PolygonSciFiSpace\Shaders\SyntyStudios_Asteroid.shader" />

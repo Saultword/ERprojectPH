@@ -421,6 +421,8 @@
 "Assets/Action_script_ERproject/PH_test_enemy/Enemy_navigation/WaypointListDrawer.cs"
 "Assets/Action_script_ERproject/PH_test_enemy/Enemy_navigation/WayPointManager.cs"
 "Assets/Action_script_ERproject/Script/BaseDefense.cs"
+"Assets/Action_script_ERproject/Script/DefenseTower/TargetDetect.cs"
+"Assets/Action_script_ERproject/Script/DefenseTower/TowerAttack.cs"
 "Assets/Action_script_ERproject/Script/Defense_tower.cs"
 "Assets/Action_script_ERproject/Script/destoryBullet.cs"
 "Assets/Action_script_ERproject/Script/EnemyFactory.cs"
