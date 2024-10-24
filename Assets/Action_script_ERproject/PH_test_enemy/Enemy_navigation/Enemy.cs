@@ -6,10 +6,13 @@ using UnityEngine.AI;
 public class Enemy : MonoBehaviour
 {
     private NavMeshAgent nav;
-
-    private Vector3 offset;	// 偏移量
-
+    private Vector3 offset; // 偏移量
     private GameObject des;
+
+    public float health = 100f; // 生命值
+
+    // 子弹的LayerMask
+    public LayerMask bulletLayer;
 
     void Start()
     {
@@ -18,12 +21,36 @@ public class Enemy : MonoBehaviour
         transform.position = bornTransform.position + bornTransform.TransformDirection(offset);
     }
 
-
     public void init(Vector3 offset)
     {
         this.offset = offset;
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        print("OnCollisionEnter");
+
+        // 检查碰撞对象是否在子弹层级中
+        if (((1 << collision.gameObject.layer) & bulletLayer) != 0)
+        {
+            // 获取子弹组件
+            Bullet bullet = collision.gameObject.GetComponent<Bullet>();
+            if (bullet != null)
+            {
+                // 处理伤害
+                TakeDamage(bullet.damage);
+            }
+        }
+    }
+
+    private void TakeDamage(float damage)
+    {
+        health -= damage;
+        if (health <= 0f)
+        {
+            Destroy(gameObject);
+        }
+    }
 
     void Update()
     {
@@ -51,4 +78,3 @@ public class Enemy : MonoBehaviour
         }
     }
 }
-

@@ -62,12 +62,14 @@
   <ItemGroup>
     <Compile Include="Assets\Action_script_ERproject\Script\MainPlayer.cs" />
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\Enemy_navigation\MoveDestination.cs" />
+    <Compile Include="Assets\Action_script_ERproject\Script\Bullet.cs" />
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\Enemy_navigation\WaypointCircuit.cs" />
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\Enemy_navigation\Enemy.cs" />
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\Enemy_navigation\TestMoveAndAttack.cs" />
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\Enemy_navigation\WayPointManager.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\DefenseTower\TargetDetect.cs" />
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\Enemy_navigation\WaypointListDrawer.cs" />
+    <Compile Include="Assets\Action_script_ERproject\Script\DefenseTower\BulletEffect.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\Game.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\EnemyFactory.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\BaseDefense.cs" />

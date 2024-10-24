@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|c:\\unity\\unityprojects\\extend_realitprojectph\\assets\\action_script_erproject\\script\\defensetower\\targetdetect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|c:\\unity\\unityprojects\\extend_realitprojectph\\assets\\action_script_erproject\\ph_test_enemy\\enemy_navigation\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|solutionrelative:assets\\action_script_erproject\\ph_test_enemy\\enemy_navigation\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|c:\\unity\\unityprojects\\extend_realitprojectph\\assets\\action_script_erproject\\ph_test_enemy\\enemy_navigation\\waypointmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|solutionrelative:assets\\action_script_erproject\\ph_test_enemy\\enemy_navigation\\waypointmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\assets\\action_script_erproject\\ph_test_enemy\\enemy_navigation\\movedestination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|solutionrelative:assets\\action_script_erproject\\ph_test_enemy\\enemy_navigation\\movedestination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\assets\\action_script_erproject\\script\\defensetower\\targetdetect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|solutionrelative:assets\\action_script_erproject\\script\\defensetower\\targetdetect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\assets\\action_script_erproject\\ph_test_enemy\\enemy_navigation\\testmoveandattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|solutionrelative:assets\\action_script_erproject\\ph_test_enemy\\enemy_navigation\\testmoveandattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\assets\\action_script_erproject\\ph_test_enemy\\enemyaisimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|solutionrelative:assets\\action_script_erproject\\ph_test_enemy\\enemyaisimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\assets\\action_script_erproject\\script\\defense_tower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|solutionrelative:assets\\action_script_erproject\\script\\defense_tower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\assets\\action_script_erproject\\ph_test_enemy\\enemy_navigation\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|solutionrelative:assets\\action_script_erproject\\ph_test_enemy\\enemy_navigation\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\assets\\action_script_erproject\\script\\defensetower\\towerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|solutionrelative:assets\\action_script_erproject\\script\\defensetower\\towerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\assets\\action_script_erproject\\ph_test_enemy\\enemy_navigation\\testmoveandattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|solutionrelative:assets\\action_script_erproject\\ph_test_enemy\\enemy_navigation\\testmoveandattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Alearning\\\u8F6F\u8457\u7F16\u5199\\\u4E13\u5229\u4F18\u5148\u7EA7\u7EDF\u8BA1\u5DE5\u5177\\PN_PI_derive3.0\\\u4E13\u5229\u4F18\u5148\u7EA7\u7EDF\u8BA1\u5DE5\u5177240728.py||{8B382828-6202-11D1-8870-0000F87579D2}"
@@ -28,14 +44,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\assets\\action_script_erproject\\script\\enemyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|solutionrelative:assets\\action_script_erproject\\script\\enemyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\assets\\action_script_erproject\\ph_test_enemy\\enemy_navigation\\movedestination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|solutionrelative:assets\\action_script_erproject\\ph_test_enemy\\enemy_navigation\\movedestination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\assets\\action_script_erproject\\ph_test_enemy\\enemy_navigation\\follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|solutionrelative:assets\\action_script_erproject\\ph_test_enemy\\enemy_navigation\\follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\PH_test_enemy\\WaypointListDrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,16 +58,8 @@
       "RelativeMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|solutionrelative:assets\\action_script_erproject\\script\\destorybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\assets\\action_script_erproject\\ph_test_enemy\\enemyaisimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01424752-D796-6209-B374-EA5E1AF36DC1}|Assembly-CSharp.csproj|solutionrelative:assets\\action_script_erproject\\ph_test_enemy\\enemyaisimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CD8CED28-81BF-AC93-60B1-B9DD20385D68}|SteamVR.csproj|C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\assets\\steamvr\\scripts\\steamvr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD8CED28-81BF-AC93-60B1-B9DD20385D68}|SteamVR.csproj|solutionrelative:assets\\steamvr\\scripts\\steamvr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD8CED28-81BF-AC93-60B1-B9DD20385D68}|SteamVR.csproj|C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\assets\\steamvr\\interactionsystem\\core\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD8CED28-81BF-AC93-60B1-B9DD20385D68}|SteamVR.csproj|solutionrelative:assets\\steamvr\\interactionsystem\\core\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\PH_test_enemy\\enemyTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -84,8 +84,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 77,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 83,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -93,33 +93,58 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WayPointManager.cs",
+              "DocumentMoniker": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\WayPointManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\WayPointManager.cs",
+              "ToolTip": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\WayPointManager.cs",
+              "RelativeToolTip": "Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\WayPointManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:24:57.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\Enemy.cs",
+              "ToolTip": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T02:47:17.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TowerAttack.cs",
+              "DocumentMoniker": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\Script\\DefenseTower\\TowerAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Action_script_ERproject\\Script\\DefenseTower\\TowerAttack.cs",
+              "ToolTip": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\Script\\DefenseTower\\TowerAttack.cs",
+              "RelativeToolTip": "Assets\\Action_script_ERproject\\Script\\DefenseTower\\TowerAttack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T01:36:41.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TargetDetect.cs",
               "DocumentMoniker": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\Script\\DefenseTower\\TargetDetect.cs",
               "RelativeDocumentMoniker": "Assets\\Action_script_ERproject\\Script\\DefenseTower\\TargetDetect.cs",
               "ToolTip": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\Script\\DefenseTower\\TargetDetect.cs",
               "RelativeToolTip": "Assets\\Action_script_ERproject\\Script\\DefenseTower\\TargetDetect.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAQwCUAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAYwFwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T15:06:05.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TestMoveAndAttack.cs",
-              "DocumentMoniker": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\TestMoveAndAttack.cs",
-              "RelativeDocumentMoniker": "Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\TestMoveAndAttack.cs",
-              "ToolTip": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\TestMoveAndAttack.cs",
-              "RelativeToolTip": "Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\TestMoveAndAttack.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAAAKkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T05:59:17.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Defense_tower.cs",
               "DocumentMoniker": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\Script\\Defense_tower.cs",
               "RelativeDocumentMoniker": "Assets\\Action_script_ERproject\\Script\\Defense_tower.cs",
@@ -132,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Game.cs",
               "DocumentMoniker": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\Script\\Game.cs",
               "RelativeDocumentMoniker": "Assets\\Action_script_ERproject\\Script\\Game.cs",
@@ -144,19 +169,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\Enemy.cs",
-              "RelativeDocumentMoniker": "Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\Enemy.cs",
-              "ToolTip": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\Enemy.cs",
-              "RelativeToolTip": "Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAowB0AAAA+AAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "TestMoveAndAttack.cs",
+              "DocumentMoniker": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\TestMoveAndAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\TestMoveAndAttack.cs",
+              "ToolTip": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\TestMoveAndAttack.cs",
+              "RelativeToolTip": "Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\TestMoveAndAttack.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAAKkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T16:45:55.146Z"
+              "WhenOpened": "2024-10-21T05:59:17.559Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "\u4E13\u5229\u4F18\u5148\u7EA7\u7EDF\u8BA1\u5DE5\u5177240728.py",
               "DocumentMoniker": "D:\\Alearning\\\u8F6F\u8457\u7F16\u5199\\\u4E13\u5229\u4F18\u5148\u7EA7\u7EDF\u8BA1\u5DE5\u5177\\PN_PI_derive3.0\\\u4E13\u5229\u4F18\u5148\u7EA7\u7EDF\u8BA1\u5DE5\u5177240728.py",
               "ToolTip": "D:\\Alearning\\\u8F6F\u8457\u7F16\u5199\\\u4E13\u5229\u4F18\u5148\u7EA7\u7EDF\u8BA1\u5DE5\u5177\\PN_PI_derive3.0\\\u4E13\u5229\u4F18\u5148\u7EA7\u7EDF\u8BA1\u5DE5\u5177240728.py",
@@ -178,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "EnemyFactory.cs",
               "DocumentMoniker": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\Script\\EnemyFactory.cs",
               "RelativeDocumentMoniker": "Assets\\Action_script_ERproject\\Script\\EnemyFactory.cs",
@@ -190,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "MoveDestination.cs",
               "DocumentMoniker": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\MoveDestination.cs",
               "RelativeDocumentMoniker": "Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\MoveDestination.cs",
@@ -198,23 +223,12 @@
               "RelativeToolTip": "Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\MoveDestination.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T05:54:33.781Z"
+              "WhenOpened": "2024-10-21T05:54:33.781Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Follow.cs",
-              "DocumentMoniker": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\Follow.cs",
-              "RelativeDocumentMoniker": "Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\Follow.cs",
-              "ToolTip": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\Follow.cs",
-              "RelativeToolTip": "Assets\\Action_script_ERproject\\PH_test_enemy\\Enemy_navigation\\Follow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAABIwAoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T05:43:03.723Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "WaypointListDrawer.cs",
               "DocumentMoniker": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\PH_test_enemy\\WaypointListDrawer.cs",
               "RelativeDocumentMoniker": "Assets\\Action_script_ERproject\\PH_test_enemy\\WaypointListDrawer.cs",
@@ -237,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "MainPlayer.cs",
               "DocumentMoniker": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\Script\\MainPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Action_script_ERproject\\Script\\MainPlayer.cs",
@@ -249,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "destoryBullet.cs",
               "DocumentMoniker": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\Script\\destoryBullet.cs",
               "RelativeDocumentMoniker": "Assets\\Action_script_ERproject\\Script\\destoryBullet.cs",
@@ -261,15 +275,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 4,
               "Title": "EnemyAIsimple.cs",
               "DocumentMoniker": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\PH_test_enemy\\EnemyAIsimple.cs",
               "RelativeDocumentMoniker": "Assets\\Action_script_ERproject\\PH_test_enemy\\EnemyAIsimple.cs",
               "ToolTip": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\Action_script_ERproject\\PH_test_enemy\\EnemyAIsimple.cs",
               "RelativeToolTip": "Assets\\Action_script_ERproject\\PH_test_enemy\\EnemyAIsimple.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAADwvwYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T16:29:39.015Z"
+              "WhenOpened": "2024-10-11T16:29:39.015Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -285,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "SteamVR.cs",
               "DocumentMoniker": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\SteamVR\\Scripts\\SteamVR.cs",
               "RelativeDocumentMoniker": "Assets\\SteamVR\\Scripts\\SteamVR.cs",
@@ -294,18 +309,6 @@
               "ViewState": "AgIAALACAAAAAAAAAMBTwLMCAACmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T14:53:15.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\SteamVR\\InteractionSystem\\Core\\Scripts\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\SteamVR\\InteractionSystem\\Core\\Scripts\\Player.cs",
-              "ToolTip": "C:\\Unity\\UnityProjects\\Extend_RealitProjectPH\\Assets\\SteamVR\\InteractionSystem\\Core\\Scripts\\Player.cs",
-              "RelativeToolTip": "Assets\\SteamVR\\InteractionSystem\\Core\\Scripts\\Player.cs",
-              "ViewState": "AgIAABQBAAAAAAAAAAAUwC0BAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T14:47:28.674Z"
             },
             {
               "$type": "Document",
@@ -321,7 +324,7 @@
           ]
         },
         {
-          "DockedWidth": 51,
+          "DockedWidth": 45,
           "SelectedChildIndex": -1,
           "Children": [
             {
