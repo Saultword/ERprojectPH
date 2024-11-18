@@ -113,11 +113,27 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Boolean NewAction
+        public virtual SteamVR_Action_Boolean ShowRay
         {
             get
             {
-                return SteamVR_Actions.default_NewAction;
+                return SteamVR_Actions.default_ShowRay;
+            }
+        }
+        
+        public virtual SteamVR_Action_Vector2 BuildTower
+        {
+            get
+            {
+                return SteamVR_Actions.default_BuildTower;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean PlaceTower
+        {
+            get
+            {
+                return SteamVR_Actions.default_PlaceTower;
             }
         }
         

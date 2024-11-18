@@ -8,22 +8,31 @@ public class Enemy : MonoBehaviour
     private NavMeshAgent nav;
     private Vector3 offset; // 偏移量
     private GameObject des;
-
+    static public GameObject[] waypoints;
     public float health = 100f; // 生命值
-
+    static public GameObject bornpoint;
     // 子弹的LayerMask
     public LayerMask bulletLayer;
 
     void Start()
     {
+
         nav = GetComponent<NavMeshAgent>();
-        Transform bornTransform = WayPointManager.BornPoint.transform;
+        // Transform bornTransform = WayPointManager.BornPoint.transform;
+        Transform bornTransform = bornpoint.transform;
         transform.position = bornTransform.position + bornTransform.TransformDirection(offset);
     }
 
     public void init(Vector3 offset)
     {
         this.offset = offset;
+
+    }
+    public void init(Vector3 offset,GameObject BornPoint, GameObject[] Instance)
+    {
+        this.offset = offset;
+        bornpoint = BornPoint;
+        waypoints = Instance;
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -51,13 +60,42 @@ public class Enemy : MonoBehaviour
             Destroy(gameObject);
         }
     }
+     public GameObject getNextDes(GameObject des)
+    {
+        if (!des)
+        {
+            return waypoints[0];
+        }
 
+        int idx = 0;
+        for (int i = 0; i < waypoints.Length; ++i)
+        {
+            if (waypoints[i] == des)
+            {
+                idx = i;
+                break;
+            }
+        }
+
+        if (idx < waypoints.Length - 1)
+        {
+            return waypoints[idx + 1];
+        }
+        else
+        {
+            return null;
+        }
+
+        /*
+         * todo: 后续寻路算法的实现
+         */
+    }
     void Update()
     {
         if (!nav.pathPending && nav.remainingDistance <= 0.5f)
         {
-            GameObject origin = des ? des : WayPointManager.BornPoint;
-            des = WayPointManager.getNextDes(des);
+            GameObject origin = des ? des : bornpoint;
+            des = getNextDes(des);
 
             if (des)
             {

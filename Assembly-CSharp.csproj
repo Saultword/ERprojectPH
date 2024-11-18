@@ -63,14 +63,18 @@
     <Compile Include="Assets\Action_script_ERproject\Script\MainPlayer.cs" />
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\Enemy_navigation\MoveDestination.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\Bullet.cs" />
+    <Compile Include="Assets\Action_script_ERproject\Script\TowerPlace.cs" />
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\Enemy_navigation\WaypointCircuit.cs" />
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\Enemy_navigation\Enemy.cs" />
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\Enemy_navigation\TestMoveAndAttack.cs" />
-    <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\Enemy_navigation\WayPointManager.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\DefenseTower\TargetDetect.cs" />
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\Enemy_navigation\WaypointListDrawer.cs" />
+    <Compile Include="Assets\Action_script_ERproject\Script\TurretSpawner.cs" />
+    <Compile Include="Assets\Action_script_ERproject\Script\GunThrowable.cs" />
+    <Compile Include="Assets\Action_script_ERproject\Script\VRMenuController.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\DefenseTower\BulletEffect.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\Game.cs" />
+    <Compile Include="Assets\Action_script_ERproject\Script\WaveSpawner.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\EnemyFactory.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\BaseDefense.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\destoryBullet.cs" />
@@ -78,6 +82,7 @@
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\Enemy_navigation\Follow.cs" />
     <Compile Include="Assets\Action_script_ERproject\MonsterGeneration.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\Defense_tower.cs" />
+    <Compile Include="Assets\Action_script_ERproject\Script\WayPointManager.cs" />
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\EnemyAIsimple.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\DefenseTower\TowerAttack.cs" />
   </ItemGroup>

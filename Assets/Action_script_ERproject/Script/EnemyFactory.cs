@@ -7,9 +7,9 @@ public class EnemyFactory : ScriptableObject
 {
     [SerializeField]
     Enemy prefabs;
-
     public Enemy Get()
     {
+
         return Instantiate(prefabs);
     }
 }

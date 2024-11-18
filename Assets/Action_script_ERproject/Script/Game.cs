@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Game:MonoBehaviour
 {
-
+    public bool gamestart = true;
     public EnemyFactory enemyFactory;
 
     [SerializeField]
@@ -16,6 +16,7 @@ public class Game:MonoBehaviour
 
     void Update()
     {
+        
         progress += Time.deltaTime;
         if (progress >= waveColdDown)
         {
@@ -28,4 +29,5 @@ public class Game:MonoBehaviour
             }
         }
     }
+
 }

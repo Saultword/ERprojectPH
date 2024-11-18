@@ -419,7 +419,6 @@
 "Assets/Action_script_ERproject/PH_test_enemy/Enemy_navigation/TestMoveAndAttack.cs"
 "Assets/Action_script_ERproject/PH_test_enemy/Enemy_navigation/WaypointCircuit.cs"
 "Assets/Action_script_ERproject/PH_test_enemy/Enemy_navigation/WaypointListDrawer.cs"
-"Assets/Action_script_ERproject/PH_test_enemy/Enemy_navigation/WayPointManager.cs"
 "Assets/Action_script_ERproject/Script/BaseDefense.cs"
 "Assets/Action_script_ERproject/Script/Bullet.cs"
 "Assets/Action_script_ERproject/Script/DefenseTower/BulletEffect.cs"
@@ -429,7 +428,13 @@
 "Assets/Action_script_ERproject/Script/destoryBullet.cs"
 "Assets/Action_script_ERproject/Script/EnemyFactory.cs"
 "Assets/Action_script_ERproject/Script/Game.cs"
+"Assets/Action_script_ERproject/Script/GunThrowable.cs"
 "Assets/Action_script_ERproject/Script/MainPlayer.cs"
+"Assets/Action_script_ERproject/Script/TowerPlace.cs"
+"Assets/Action_script_ERproject/Script/TurretSpawner.cs"
+"Assets/Action_script_ERproject/Script/VRMenuController.cs"
+"Assets/Action_script_ERproject/Script/WaveSpawner.cs"
+"Assets/Action_script_ERproject/Script/WayPointManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+

@@ -54,7 +54,15 @@
       "type": "vector2"
     },
     {
-      "name": "/actions/default/in/NewAction",
+      "name": "/actions/default/in/ShowRay",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/BuildTower",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/default/in/PlaceTower",
       "type": "boolean"
     },
     {
@@ -94,7 +102,7 @@
   "action_sets": [
     {
       "name": "/actions/default",
-      "usage": "single"
+      "usage": "leftright"
     },
     {
       "name": "/actions/platformer",
