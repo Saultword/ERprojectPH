@@ -51,7 +51,8 @@
     },
     {
       "name": "/actions/default/in/MovePlayerByJoystick",
-      "type": "vector2"
+      "type": "boolean",
+      "requirement": "suggested"
     },
     {
       "name": "/actions/default/in/ShowRay",
@@ -64,6 +65,15 @@
     {
       "name": "/actions/default/in/PlaceTower",
       "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/flowerplant",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/Keep_press_trigger",
+      "type": "boolean",
+      "requirement": "suggested"
     },
     {
       "name": "/actions/default/out/Haptic",

@@ -36,7 +36,7 @@ public class TowerPlacement : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit, Mathf.Infinity, groundLayer))
         {
-            Vector3 adjustedHitPoint = new Vector3(hit.point.x, hit.point.y - 15, hit.point.z - 15);
+            Vector3 adjustedHitPoint = new Vector3(hit.point.x, hit.point.y-15 , hit.point.z-15 );
             lineRenderer.enabled = true;
             lineRenderer.SetPosition(0, ray.origin);
             lineRenderer.SetPosition(1, hit.point);

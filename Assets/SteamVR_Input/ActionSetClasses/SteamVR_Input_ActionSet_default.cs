@@ -105,7 +105,7 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Vector2 MovePlayerByJoystick
+        public virtual SteamVR_Action_Boolean MovePlayerByJoystick
         {
             get
             {
@@ -134,6 +134,22 @@ namespace Valve.VR
             get
             {
                 return SteamVR_Actions.default_PlaceTower;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean flowerplant
+        {
+            get
+            {
+                return SteamVR_Actions.default_flowerplant;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean Keep_press_trigger
+        {
+            get
+            {
+                return SteamVR_Actions.default_Keep_press_trigger;
             }
         }
         

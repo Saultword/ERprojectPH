@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -11,13 +12,20 @@ public class Enemy : MonoBehaviour
     static public GameObject[] waypoints;
     public float health = 100f; // 生命值
     static public GameObject bornpoint;
+    public GameObject endpoint; // 终点
     // 子弹的LayerMask
     public LayerMask bulletLayer;
 
+    private Renderer enemyRenderer; // 敌人的渲染器
+    public Color hitColor = Color.red; // 受击时的颜色
+    public float hitDuration = 0.1f; // 受击颜色持续时间
+
+    public delegate void EnemyDied(Vector3 position);
+    public event EnemyDied OnEnemyDied;
     void Start()
     {
-
         nav = GetComponent<NavMeshAgent>();
+        enemyRenderer = GetComponent<Renderer>(); // 获取渲染器组件
         // Transform bornTransform = WayPointManager.BornPoint.transform;
         Transform bornTransform = bornpoint.transform;
         transform.position = bornTransform.position + bornTransform.TransformDirection(offset);
@@ -28,11 +36,13 @@ public class Enemy : MonoBehaviour
         this.offset = offset;
 
     }
-    public void init(Vector3 offset,GameObject BornPoint, GameObject[] Instance)
+
+    public void init(Vector3 offset, GameObject BornPoint, GameObject[] Instance,GameObject EndPoint)
     {
         this.offset = offset;
         bornpoint = BornPoint;
         waypoints = Instance;
+        endpoint = EndPoint;
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -52,15 +62,43 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    private void TakeDamage(float damage)
+    public void TakeDamage(float damage)
     {
         health -= damage;
         if (health <= 0f)
         {
-            Destroy(gameObject);
+
+            Die();
+        }
+        else
+        {
+            StartCoroutine(FlashHitColor());
         }
     }
-     public GameObject getNextDes(GameObject des)
+
+    private IEnumerator FlashHitColor()
+    {
+        Color originalColor = enemyRenderer.material.color; // 保存原始颜色
+        enemyRenderer.material.color = hitColor; // 设置为受击颜色
+        yield return new WaitForSeconds(hitDuration); // 等待一段时间
+        enemyRenderer.material.color = originalColor; // 恢复原始颜色
+    }
+
+    void Die()
+    {
+        // 其他死亡逻辑...
+
+        // 触发死亡事件
+
+
+        Destroy(gameObject);
+        if (OnEnemyDied != null)
+        {
+            OnEnemyDied(transform.position);
+        }
+    }
+
+    public GameObject getNextDes(GameObject des)
     {
         if (!des)
         {
@@ -90,6 +128,7 @@ public class Enemy : MonoBehaviour
          * todo: 后续寻路算法的实现
          */
     }
+
     void Update()
     {
         if (!nav.pathPending && nav.remainingDistance <= 0.5f)
