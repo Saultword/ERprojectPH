@@ -16,7 +16,7 @@ public class Enemy : MonoBehaviour
     // 子弹的LayerMask
     public LayerMask bulletLayer;
 
-    private Renderer enemyRenderer; // 敌人的渲染器
+    public Renderer enemyRenderer; // 敌人的渲染器
     public Color hitColor = Color.red; // 受击时的颜色
     public float hitDuration = 0.1f; // 受击颜色持续时间
 

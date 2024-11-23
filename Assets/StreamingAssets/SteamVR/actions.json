@@ -6,7 +6,8 @@
     },
     {
       "name": "/actions/default/in/Teleport",
-      "type": "boolean"
+      "type": "boolean",
+      "requirement": "suggested"
     },
     {
       "name": "/actions/default/in/GrabPinch",
@@ -51,7 +52,7 @@
     },
     {
       "name": "/actions/default/in/MovePlayerByJoystick",
-      "type": "boolean",
+      "type": "vector2",
       "requirement": "suggested"
     },
     {
@@ -74,6 +75,10 @@
       "name": "/actions/default/in/Keep_press_trigger",
       "type": "boolean",
       "requirement": "suggested"
+    },
+    {
+      "name": "/actions/default/in/Switch",
+      "type": "boolean"
     },
     {
       "name": "/actions/default/out/Haptic",

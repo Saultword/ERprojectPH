@@ -105,7 +105,7 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Boolean MovePlayerByJoystick
+        public virtual SteamVR_Action_Vector2 MovePlayerByJoystick
         {
             get
             {
@@ -150,6 +150,14 @@ namespace Valve.VR
             get
             {
                 return SteamVR_Actions.default_Keep_press_trigger;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean Switch
+        {
+            get
+            {
+                return SteamVR_Actions.default_Switch;
             }
         }
         

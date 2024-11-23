@@ -72,6 +72,7 @@
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\Enemy_navigation\TestMoveAndAttack.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\TowerPointManagement.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\DefenseTower\TargetDetect.cs" />
+    <Compile Include="Assets\Action_script_ERproject\Script\SwardCollider.cs" />
     <Compile Include="Assets\Gunfight\Solution1\Swing.cs" />
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\Enemy_navigation\WaypointListDrawer.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\TurretSpawner.cs" />
@@ -79,27 +80,50 @@
     <Compile Include="Assets\Gunfight\Solution1\Health.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\VRMenuController.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\DefenseTower\BulletEffect.cs" />
+    <Compile Include="Assets\Action_script_ERproject\Script\equipment.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\Game.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\WaveSpawner.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\EnemyFactory.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\BaseDefense.cs" />
+    <Compile Include="Assets\Action_script_ERproject\Script\PlayerMoveByJoystick.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\destoryBullet.cs" />
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\EnemyAiTutorial.cs" />
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\Enemy_navigation\Follow.cs" />
     <Compile Include="Assets\Action_script_ERproject\MonsterGeneration.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\Defense_tower.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\WayPointManager.cs" />
-    <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\EnemyAIsimple.cs" />
     <Compile Include="Assets\Gunfight\Solution1\GunBullet.cs" />
+    <Compile Include="Assets\Action_script_ERproject\Scenetest\Joystickinteract.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\DefenseTower\TowerAttack.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\PolygonSciFiSpace\Shaders\SyntyStudios_Asteroid.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\PolygonSciFiSpace\Shaders\POLYGON_Triplanar.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\PolygonSciFiSpace\Shaders\SyntyStudios_Triplanar_ObjectSpace.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\PolygonSciFiSpace\Shaders\SyntyStudios_Planet.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\PolygonSciFiSpace\Shaders\SyntyStudios_Planet_Lines.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\PolygonSciFiSpace\Shaders\POLYGON_SpaceShip_Rim.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
