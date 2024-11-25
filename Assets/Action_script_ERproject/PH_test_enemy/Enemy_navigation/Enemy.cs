@@ -20,24 +20,40 @@ public class Enemy : MonoBehaviour
     public Color hitColor = Color.red; // 受击时的颜色
     public float hitDuration = 0.1f; // 受击颜色持续时间
 
+    public Animator animator; // 动画组件
+    public ParticleSystem hitEffect; // 受击粒子效果
+    public AudioClip hitSound; // 受击声音效果
+    public AudioClip walkSound; // 走路声音效果
+    private AudioSource audioSource; // 音频源
+
     public delegate void EnemyDied(Vector3 position);
     public event EnemyDied OnEnemyDied;
+
     void Start()
     {
         nav = GetComponent<NavMeshAgent>();
         enemyRenderer = GetComponent<Renderer>(); // 获取渲染器组件
+        animator = GetComponent<Animator>(); // 获取动画组件
+        audioSource = GetComponent<AudioSource>(); // 获取音频源组件
         // Transform bornTransform = WayPointManager.BornPoint.transform;
         Transform bornTransform = bornpoint.transform;
         transform.position = bornTransform.position + bornTransform.TransformDirection(offset);
+
+        // 播放走路音效
+        if (walkSound != null)
+        {
+            audioSource.clip = walkSound;
+            audioSource.loop = true;
+            audioSource.Play();
+        }
     }
 
     public void init(Vector3 offset)
     {
         this.offset = offset;
-
     }
 
-    public void init(Vector3 offset, GameObject BornPoint, GameObject[] Instance,GameObject EndPoint)
+    public void init(Vector3 offset, GameObject BornPoint, GameObject[] Instance, GameObject EndPoint)
     {
         this.offset = offset;
         bornpoint = BornPoint;
@@ -67,12 +83,12 @@ public class Enemy : MonoBehaviour
         health -= damage;
         if (health <= 0f)
         {
-
             Die();
         }
         else
         {
             StartCoroutine(FlashHitColor());
+            PlayHitFeedback();
         }
     }
 
@@ -84,13 +100,38 @@ public class Enemy : MonoBehaviour
         enemyRenderer.material.color = originalColor; // 恢复原始颜色
     }
 
+    private void PlayHitFeedback()
+    {
+        // 播放受击动画
+        if (animator != null)
+        {
+            animator.SetTrigger("Hit");
+        }
+
+        // 播放受击粒子效果
+        if (hitEffect != null)
+        {
+            hitEffect.Play();
+        }
+
+        // 播放受击声音效果
+        if (hitSound != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(hitSound);
+        }
+    }
+
     void Die()
     {
+        // 停止走路音效
+        if (audioSource != null && audioSource.isPlaying)
+        {
+            audioSource.Stop();
+        }
+
         // 其他死亡逻辑...
 
         // 触发死亡事件
-
-
         Destroy(gameObject);
         if (OnEnemyDied != null)
         {
@@ -155,3 +196,4 @@ public class Enemy : MonoBehaviour
         }
     }
 }
+

@@ -8,6 +8,7 @@ public class GunSteam : MonoBehaviour
 {
     public SteamVR_Input_Sources handType; // 使用的手
     public SteamVR_Action_Boolean shootAction; // 射击动作
+    public SteamVR_Action_Boolean reloadAction; // 装弹动作
     public GameObject bulletPrefab; // 子弹预制体
     public Transform bulletSpawn; // 子弹生成位置
     public float bulletSpeed = 20f; // 子弹速度
@@ -36,12 +37,21 @@ public class GunSteam : MonoBehaviour
 
         // 将子弹UI的Canvas设置为枪的子对象，并设置其位置
         bulletUICanvas.transform.SetParent(transform);
-        bulletUICanvas.transform.localPosition = new Vector3(0.2f, 0f, 0f); // 根据需要调整位置
+        bulletUICanvas.transform.localPosition = new Vector3(0.2f, 0.2f, 0f); // 根据需要调整位置
         bulletUICanvas.transform.localRotation = Quaternion.identity;
     }
 
     void Update()
     {
+        if (reloadAction.GetStateDown(handType) && currentAmmo < maxAmmo && !isReloading)
+        {
+            if (reloadSound != null && interactable.attachedToHand != null)
+            {
+                isReloading = true;
+                audioSource.PlayOneShot(reloadSound, reloadVolume);
+                StartCoroutine(ReloadAfterSound(reloadSound.length));
+            }
+        }
         // 只有在枪被持握且不在装弹时才允许射击
         if (interactable.attachedToHand != null)
         {
@@ -61,7 +71,7 @@ public class GunSteam : MonoBehaviour
 
     void Shoot()
     {
-        if (currentAmmo > 0)
+        if (currentAmmo > 0&&interactable.attachedToHand != null)
         {
             // 创建子弹
             GameObject bullet = Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
@@ -79,7 +89,7 @@ public class GunSteam : MonoBehaviour
         else
         {
             // 播放装弹音效
-            if (reloadSound != null)
+            if (reloadSound != null&& interactable.attachedToHand != null)
             {
                 isReloading = true;
                 audioSource.PlayOneShot(reloadSound, reloadVolume);

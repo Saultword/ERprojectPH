@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Action_script_ERproject\Script\GunSteam.cs" />
     <Compile Include="Assets\Gunfight\Solution1\GunGripDetector.cs" />
+    <Compile Include="Assets\Ani\fire\PlaneCrashController.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\MainPlayer.cs" />
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\Enemy_navigation\MoveDestination.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\Bullet.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\Enemy_navigation\WaypointCircuit.cs" />
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\Enemy_navigation\Enemy.cs" />
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\Enemy_navigation\TestMoveAndAttack.cs" />
+    <Compile Include="Assets\Ani\fire\fire.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\TowerPointManagement.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\DefenseTower\TargetDetect.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\SwardCollider.cs" />
@@ -87,6 +89,7 @@
     <Compile Include="Assets\Action_script_ERproject\Script\BaseDefense.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\PlayerMoveByJoystick.cs" />
     <Compile Include="Assets\Action_script_ERproject\Script\destoryBullet.cs" />
+    <Compile Include="Assets\Action_script_ERproject\Script\AircraftCrash.cs" />
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\EnemyAiTutorial.cs" />
     <Compile Include="Assets\Action_script_ERproject\PH_test_enemy\Enemy_navigation\Follow.cs" />
     <Compile Include="Assets\Action_script_ERproject\MonsterGeneration.cs" />
@@ -974,6 +977,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.XR.MockHMD">
       <HintPath>Library\ScriptAssemblies\Unity.XR.MockHMD.dll</HintPath>
       <Private>False</Private>
@@ -1210,12 +1217,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.SpatialKeyboard.csproj">
-      <Project>{7B9B6A7C-DB88-EB34-9A4A-F249B9577008}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Samples.SpatialKeyboard</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Samples.Editor.csproj">
       <Project>{C655D81C-DCC5-89A0-033C-9167DBEE71B3}</Project>
       <Name>Unity.XR.Management.Samples.Editor</Name>
@@ -1223,6 +1230,10 @@
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj">
       <Project>{E3B4A7CD-82A0-0546-92D1-780221CB742C}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.SpatialKeyboard.csproj">
+      <Project>{7B9B6A7C-DB88-EB34-9A4A-F249B9577008}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.SpatialKeyboard</Name>
     </ProjectReference>
     <ProjectReference Include="SteamVR.csproj">
       <Project>{CD8CED28-81BF-AC93-60B1-B9DD20385D68}</Project>

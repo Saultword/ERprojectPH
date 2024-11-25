@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Action_script_ERproject/Scenes/startersteam.unity
+    guid: 84371427a7dd5724dbb24352d960be70
+  - enabled: 1
+    path: Assets/Action_script_ERproject/Scenes/BeginnerAnimation.unity
+    guid: c25642e349de5b24fb36a069c1931da8
+  - enabled: 1
     path: Assets/Action_script_ERproject/Scenes/Demo.unity
     guid: 66647ceff8a08df438d0f5ac28acc57a
   m_configObjects:

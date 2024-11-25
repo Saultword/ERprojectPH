@@ -25,7 +25,7 @@ public class PlayerMoveByJoystick : MonoBehaviour
     // Update is called once per frame
     private void Start()
     {
-        teleportingGameObject.SetActive(useTeleport);
+        //teleportingGameObject.SetActive(useTeleport);
         moveSpeed = 5.0f;
     }
     void Update()
@@ -34,7 +34,7 @@ public class PlayerMoveByJoystick : MonoBehaviour
         if (switchAction.GetStateDown(SteamVR_Input_Sources.Any))
         {
             useTeleport = !useTeleport;
-            teleportingGameObject.SetActive(useTeleport);
+            //teleportingGameObject.SetActive(useTeleport);
 
             if (useTeleport)
             {
