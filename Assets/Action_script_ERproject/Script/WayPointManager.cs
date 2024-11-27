@@ -35,14 +35,32 @@ public class WayPointManager : MonoBehaviour
     private int enemiesSpawnedInWave = 0;
     private bool towerPointDropped = false;
 
+    // 新增的公开布尔变量，用于控制是否开始出怪
+    public bool isSpawningEnabled = false;
+
+    private int totalEnemiesSpawned = 0; // 总共出怪的数量
+    private int enemiesDestroyed = 0; // 已销毁的怪物数量
+    public Endgame endgame; // 引用Endgame脚本
+
     void Start()
     {
         instance = this;
         BornPoints = bornPoints;
+
+        // 计算总共出怪的数量
+        foreach (int count in waveEnemyCounts)
+        {
+            totalEnemiesSpawned += count;
+        }
     }
 
     private void Update()
     {
+        if (!isSpawningEnabled)
+        {
+            return; // 如果isSpawningEnabled为false，不生成怪物
+        }
+
         if (currentWave >= waveEnemyCounts.Length)
         {
             return; // 所有波数的怪物都已生成完毕
@@ -91,12 +109,25 @@ public class WayPointManager : MonoBehaviour
     private void HandleEnemyDied(Vector3 position)
     {
         Debug.Log("Enemy died at " + position);
+        enemiesDestroyed++;
+
         // 检查当前波次是否在 towerPointDropWave 数组中
         if (!towerPointDropped && System.Array.Exists(towerPointDropWave, wave => wave == currentWave))
         {
             GameObject towerPoint = Instantiate(towerPointPrefab, position, Quaternion.identity);
             towerPointDropped = true;
             Debug.Log("Tower point dropped");
+        }
+
+        // 检查胜利条件
+        CheckVictoryCondition();
+    }
+
+    private void CheckVictoryCondition()
+    {
+        if (enemiesDestroyed == totalEnemiesSpawned && endgame.Basehealth > 0)
+        {
+            endgame.victory = true;
         }
     }
 

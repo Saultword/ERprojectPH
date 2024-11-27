@@ -19,4 +19,15 @@ public class equipment : MonoBehaviour
     {
 
     }
+    public int GetTurretModuleCount()
+    {
+        return turretModules;
+    }
+    public void DecreaseTurretModuleCount()
+    {
+        if (turretModules >= 1)
+        {
+            turretModules = turretModules-1;
+        }
+    }
 }

@@ -8,7 +8,7 @@ namespace Valve.VR.InteractionSystem.Sample
 {
     public class ButtonEffect : MonoBehaviour
     {
-        public SceneAsset sceneAsset; // 要切换到的场景
+       // public SceneAsset sceneAsset; // 要切换到的场景
         private float buttonPressTime = 0f; // 按钮按下的时间
         private bool isButtonPressed = false; // 按钮是否被按下
 
@@ -33,15 +33,15 @@ namespace Valve.VR.InteractionSystem.Sample
                 buttonPressTime += Time.deltaTime;
                 if (buttonPressTime >= 2f)
                 {
-                    if (sceneAsset != null)
-                    {
-                        string sceneName = sceneAsset.name;
+                    // if (sceneAsset != null)
+                    // {
+                    string sceneName = "BeginnerAnimation";
                         SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
-                    }
-                    else
-                    {
-                        Debug.LogError("SceneAsset is not assigned.");
-                    }
+                  //  }
+                  //  else
+                   // {
+                      //  Debug.LogError("SceneAsset is not assigned.");
+                   // }
                 }
             }
         }

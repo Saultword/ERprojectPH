@@ -9,7 +9,7 @@ namespace Valve.VR.InteractionSystem.Sample
 {
     public class AircraftCrash : MonoBehaviour
     {
-        public SceneAsset sceneAsset; // 要切换到的场景
+       // public SceneAsset sceneAsset; // 要切换到的场景
         private PlayableDirector playableDirector; // PlayableDirector组件
 
         void Start()
@@ -28,15 +28,15 @@ namespace Valve.VR.InteractionSystem.Sample
 
         private void LoadScene()
         {
-            if (sceneAsset != null)
-            {
-                string sceneName = sceneAsset.name;
+           // if (sceneAsset != null)
+           // {
+                string sceneName = "Demo";
                 SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
-            }
-            else
-            {
-                Debug.LogError("SceneAsset is not assigned.");
-            }
+            //}
+            //else
+           // {
+                //Debug.LogError("SceneAsset is not assigned.");
+           // }
         }
     }
 }
